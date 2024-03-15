@@ -2,7 +2,7 @@
   "name": "river",
   "displayName": "River",
   "description": "River (Grafana Flow) configuration language support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Aidan Gibson",
   "publisher": "aidan-gibson",
   "repository": {
