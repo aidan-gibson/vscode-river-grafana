@@ -1,0 +1,40 @@
+{
+  "name": "river",
+  "displayName": "River",
+  "description": "River Grafana configuration language support",
+  "version": "0.0.1",
+  "author": "Aidan Gibson",
+  "publisher": "aidan-gibson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aidan-gibson/vscode-river-grafana"
+  },
+  "engines": {
+      "vscode": "^1.70.0"
+  },
+  "categories": [
+      "Programming Languages"
+  ],
+  "contributes": {
+      "languages": [
+          {
+              "id": "river",
+              "aliases": [
+                  "River",
+                  "river"
+              ],
+              "extensions": [
+                  ".river"
+              ],
+              "configuration": "./language-configuration.json"
+          }
+      ],
+      "grammars": [
+          {
+              "language": "river",
+              "scopeName": "source.river",
+              "path": "./river.tmLanguage.json"
+          }
+      ]
+  }
+}
