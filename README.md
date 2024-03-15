@@ -1,1 +1,1 @@
-https://github.com/grafana/river
+https://github.com/grafana/river language support.

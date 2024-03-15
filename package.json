@@ -1,8 +1,8 @@
 {
   "name": "river",
   "displayName": "River",
-  "description": "River Grafana configuration language support",
-  "version": "0.0.1",
+  "description": "River (Grafana Flow) configuration language support",
+  "version": "0.0.2",
   "author": "Aidan Gibson",
   "publisher": "aidan-gibson",
   "repository": {
